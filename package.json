@@ -1,0 +1,24 @@
+{
+  "name": "GitHub-Repo-Widget",
+  "version": "0.0.0",
+  "description": "A nice Github repo widget for your website",
+  "main": "githubRepoWidget.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/abeisgreat/GitHub-jQuery-Repo-Widget.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abeisgreat/GitHub-jQuery-Repo-Widget/issues"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.11",
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-uglify": "~0.2.7"
+  }
+}
