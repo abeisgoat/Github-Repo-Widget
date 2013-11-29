@@ -20,7 +20,7 @@
             document.getElementById('updated' + widgetIndex).innerHTML = 'Latest commit to the <strong>' + repo.default_branch + '</strong> branch on ' + pushed_at;
     
             // Don't show "null" if the repo has no homepage URL.
-            if (repo.homepage !== null) {
+            if (repo.homepage !== null && repo.homepage !== undefined) {
                 document.getElementById('updated' + widgetIndex).innerHTML = '<a href="' + repo.homepage + '">' + repo.homepage + '</a>';
             }
         };
